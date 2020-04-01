@@ -1,11 +1,32 @@
+button {
+	margin: 0;
+	width: 100%;
+	min-width: 15px;
+	min-height: 15px;
+	font-family: "Courgette", cursive;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all 0.15s;
+	-webkit-transition: all 0.15s;
+	-moz-transition: all 0.15s;
+	outline: none;
+	display: inline-block;
+	color: rgb(220, 220, 220);
+	text-shadow: rgba(200, 200, 200, 0.8) 1px 1px;
+	border: none;
+}
+button:hover {
+	text-shadow: rgb(220, 220, 220);
+	background-color: #99aabb;
+	color: white;
+}
 body {
 	text-align: center;
-	text-shadow: rgba(200, 200, 200, 0.8);
+	text-shadow: rgba(200, 200, 200, 0.8) 1px 1px;
 	background-color: rgb(23, 18, 25);
 	color: rgb(220, 220, 220);
 	font-family: 'Kalam', cursive;
 }
-h1 {
+#welc {
 	margin: 3px 10%;
 	width: 80%;
 	padding-top: 9%;
